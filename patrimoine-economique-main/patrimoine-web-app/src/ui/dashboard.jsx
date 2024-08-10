@@ -2,15 +2,15 @@ import { useState, useEffect } from "react";
 import "./index.css";
 
 // import { readFileSync, writeFileSync } from "fs";
-import Flux from "./../../models/possessions/Flux.js";
+import Flux from "../../../models/possessions/Flux.js";
 // import { log } from "console"
-import { myData } from "../../handler.js";
+import { myData } from "../../../handler.js";
 
 import { Dropdown, Collapse, initMDB } from "mdb-ui-kit";
 
 initMDB({ Dropdown, Collapse });
-import Personne from "../../models/Personne.js";
-import Possession from "../../models/possessions/Possession.js";
+import Personne from "../../../models/Personne.js";
+import Possession from "../../../models/possessions/Possession.js";
 
 // function PatrimonyCard() {
 
